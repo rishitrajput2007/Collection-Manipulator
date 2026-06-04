@@ -1,6 +1,14 @@
-# 🎓 Student Data Organizer
+# 🎓 Collection Manipulator – Student Data Organizer
 
-Welcome to **Student Data Organizer**, a Python-based menu-driven application designed to manage student records efficiently using Lists, Dictionaries, Tuples, and Sets.
+Welcome to **Collection Manipulator**, a Python-based menu-driven application designed to manage student records efficiently using Python Collection Data Types. This project demonstrates the practical implementation of Lists, Dictionaries, Tuples, and Sets while performing basic student record management operations.
+
+---
+
+# 🌟 Project Overview
+
+The Student Data Organizer helps users maintain student information in an organized manner. The application allows users to add, view, update, and delete student records while also displaying all unique subjects offered by students.
+
+This project was developed as part of Python programming practice to strengthen understanding of collection data structures and CRUD operations.
 
 ---
 
@@ -8,7 +16,7 @@ Welcome to **Student Data Organizer**, a Python-based menu-driven application de
 
 ## ➕ Add Student
 
-Store student details including:
+Store student information including:
 
 * Student ID
 * Name
@@ -21,7 +29,7 @@ Store student details including:
 
 ## 📋 Display All Students
 
-View all student records in a clean and organized format.
+Displays all student records in a clean and structured format.
 
 Example:
 
@@ -33,24 +41,24 @@ Student ID: 101 | Name: Alice | Age: 20 | Grade: A | Subjects: Math, Science, En
 
 ## ✏️ Update Student Information
 
-Modify existing student details such as:
+Modify existing student records using Student ID.
+
+You can update:
 
 * Age
 * Subjects
-
-using the Student ID.
 
 ---
 
 ## ❌ Delete Student
 
-Remove a student record from the system using their Student ID.
+Remove a student record permanently using Student ID.
 
 ---
 
 ## 📚 Display Subjects Offered
 
-View all unique subjects available in the student database.
+Displays all unique subjects available in the system.
 
 Example:
 
@@ -60,6 +68,12 @@ Science
 English
 Python
 ```
+
+---
+
+## 🚪 Exit Program
+
+Terminates the application safely.
 
 ---
 
@@ -79,53 +93,122 @@ Python
 # 📂 Project Structure
 
 ```text
-Student-Data-Organizer/
+Task 3/
 │
-├── student_data_organizer.py
-├── OUTPUT/
-│   ├── Output_3.png
-│   ├── Output_3-1.png
-│   
-│
+├── Collection Manipulator.py
 ├── README.md
-└── video_link.txt
+│
+└── OUTPUT/
+    ├── Output_3.png
+    └── Output_3-1.png
+```
+
+---
+
+# 🗂️ Data Structures Used
+
+## 📌 List
+
+Stores all student records.
+
+```python
+students = []
+```
+
+---
+
+## 📌 Dictionary
+
+Stores individual student information.
+
+```python
+student = {
+    "name": "Alice",
+    "age": 20,
+    "grade": "A"
+}
+```
+
+---
+
+## 📌 Tuple
+
+Stores Student ID and Date of Birth.
+
+```python
+details = (101, "2005-01-15")
+```
+
+---
+
+## 📌 Set
+
+Stores unique subjects.
+
+```python
+subjects = {"Math", "Science", "English"}
 ```
 
 ---
 
 # 📸 Output Screenshots
 
-## Add Student
+## ➕ Adding Student Details
 
-![Output 1](Output_3.png)
+![Output 1](OUTPUT/Output_3.png)
 
+---
 
-## Display ALL Students
+## 📋 Displaying Student Records
 
-![Output 2](Output_3-1.png)
+![Output 2](OUTPUT/Output_3-1.png)
 
-
+---
 
 # 🎥 Project Demo Video
 
-👉 [Watch Video Here](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
+Watch the complete demonstration of the project here:
+
+👉 **Video Link:**
+PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE
+
+### Video Demonstrates
+
+✅ Adding Student Records
+
+✅ Displaying Student Records
+
+✅ Updating Student Information
+
+✅ Deleting Student Records
+
+✅ Displaying Subjects Offered
+
+✅ Exiting the Program
 
 ---
 
 # ▶️ How to Run
 
-1. Clone the repository
+### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/student-data-organizer.git
+git clone https://github.com/rishitrajput2007/Collection-Manipulator.git
 ```
 
-2. Open the project in VS Code / PyCharm
+### Step 2: Open the Project
 
-3. Run the Python file
+Open the project using:
+
+* VS Code
+* PyCharm
+* IDLE
+* Any Python IDE
+
+### Step 3: Run the Program
 
 ```bash
-python student_data_organizer.py
+python "Collection Manipulator.py"
 ```
 
 ---
@@ -143,22 +226,72 @@ python student_data_organizer.py
 
 ---
 
-# 🧠 Concepts Practiced
+# 🔄 Program Workflow
 
-* CRUD Operations
-* Lists and Dictionaries
-* Tuples and Sets
-* Data Management
-* Searching Records
-* Updating Records
-* Menu-Driven Programming
-* Python Fundamentals
+```text
+Start
+  │
+  ▼
+Display Menu
+  │
+  ▼
+User Selects Option
+  │
+  ├── Add Student
+  ├── Display Students
+  ├── Update Student
+  ├── Delete Student
+  ├── Display Subjects
+  └── Exit
+  │
+  ▼
+Return to Menu
+  │
+  ▼
+End
+```
 
 ---
 
-# 🎯 Learning Purpose
+# 🧠 Concepts Practiced
 
-This project was developed to strengthen understanding of Python data structures and implement a real-world student record management system.
+* Lists
+* Dictionaries
+* Tuples
+* Sets
+* CRUD Operations
+* Searching Records
+* Updating Records
+* Deleting Records
+* String Manipulation
+* Menu-Driven Programming
+
+---
+
+# 🎯 Learning Outcomes
+
+Through this project, the following concepts were strengthened:
+
+✅ Collection Data Structures
+
+✅ Data Organization Techniques
+
+✅ CRUD Operations
+
+✅ Python Programming Fundamentals
+
+✅ Logical Thinking and Problem Solving
+
+---
+
+# 🚀 Future Enhancements
+
+* File Handling Support
+* Student Search Feature
+* Sorting Records
+* GUI Version using Tkinter
+* Database Integration
+* CSV Export Functionality
 
 ---
 
@@ -170,3 +303,9 @@ GitHub:
 https://github.com/rishitrajput2007
 
 ---
+
+# ⭐ Thank You
+
+Thank you for visiting this repository.
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
