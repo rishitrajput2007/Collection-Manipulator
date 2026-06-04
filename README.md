@@ -155,13 +155,15 @@ subjects = {"Math", "Science", "English"}
 
 ## ➕ Adding Student Details
 
-![Output 1](OUTPUT/Output_3.png)
+![Output 1](Output_3.png)
+
+
 
 ---
 
 ## 📋 Displaying Student Records
 
-![Output 2](OUTPUT/Output_3-1.png)
+![Output 2](Output_3-1.png)
 
 ---
 
