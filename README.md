@@ -167,12 +167,9 @@ subjects = {"Math", "Science", "English"}
 
 ---
 
-# 🎥 Project Demo Video
+## Project Demo Video
 
-Watch the complete demonstration of the project here:
-
-👉 **Video Link:**
-PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE
+[Click here to watch the demo video](https://drive.google.com/file/d/1SpCI2-byraOqJixKN6CYE83Qb1wpLbMQ/view?usp=sharing)
 
 ### Video Demonstrates
 
